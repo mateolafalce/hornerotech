@@ -1,9 +1,40 @@
 # Pagina del proyecto Hornero Tech
 
-Levantar pagina:
+## Levantar el proyecto
+
+### Con Node.js (desarrollo local)
 
 ```bash
 npm install && npm run dev
+```
+
+### Con Docker
+
+#### Construir la imagen
+
+```bash
+docker build -t hornerotech .
+```
+
+#### Ejecutar el contenedor
+
+```bash
+docker run -p 8084:8084 hornerotech
+```
+
+La aplicación estará disponible en `http://localhost:8084`
+
+#### Detener el contenedor
+
+```bash
+docker ps  
+docker stop <CONTAINER_ID>
+```
+
+#### Con Docker Compose
+
+```bash
+docker-compose up
 ```
 
 Links:

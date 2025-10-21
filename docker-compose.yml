@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  hornerotech:
+    build: .
+    ports:
+      - "8084:8084"
+    volumes:
+      - .:/app
+      - /app/node_modules
