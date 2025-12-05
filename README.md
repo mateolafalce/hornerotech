@@ -1,8 +1,12 @@
-# Pagina del proyecto Hornero Tech
+<div align="center">
+  
+# Pagina del proyecto Hornero Tech 🇦🇷
+
+</div>
 
 ## Levantar el proyecto
 
-### Con Node.js (desarrollo local)
+### Con Node.js
 
 ```bash
 npm install && npm run dev
